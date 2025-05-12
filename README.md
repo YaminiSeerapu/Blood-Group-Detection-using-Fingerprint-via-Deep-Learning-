@@ -29,6 +29,8 @@ It combines **minutiae-based image processing** and other image processing techn
       - Web Server: Werkzeug (default) 
       - Environment: Local system with Python 3.8+ and required libraries (OpenCV, NumPy, TensorFlow/PyTorch, etc.)
 
+# Project Structure
+
 ```bash
 ├── __pycache__/           # Python bytecode cache (auto-generated, usually ignored)
 ├── models/                # Trained CNN model weights
