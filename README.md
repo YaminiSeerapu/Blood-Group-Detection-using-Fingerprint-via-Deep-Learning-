@@ -9,9 +9,12 @@ It combines **minutiae-based image processing** and other image processing techn
 - **Deep Learning Models:** VGG16, Custom ResNet  
 - **Frontend:** Material UI, HTML, CSS, JavaScript
 - **Tools:** Google Colab, Jupyter Notebook, VS Code  
-- **Database:** PostgreSQL  
-- **Hardware Requirements:**
-      - Processor: Intel Core i7 
+- **Database:** PostgreSQL
+
+# Hardware Requirements:
+
+
+      - Processor: Intel Core i7                           
       - RAM: 16GB minimum (32GB recommended) 
       - GPU: NVIDIA RTX 3060/3080/A100 
       - Storage: 512GB SSD 
@@ -24,6 +27,17 @@ It combines **minutiae-based image processing** and other image processing techn
       - Compliance: ISO/IEC 19794-2 and ISO/IEC 19794-4 standards 
       - Flask Version: 2.2+ 
       - Web Server: Werkzeug (default) 
-      - Environment: Local system with Python 3.8+ and required libraries (OpenCV, NumPy, TensorFlow/PyTorch, etc.)  
+      - Environment: Local system with Python 3.8+ and required libraries (OpenCV, NumPy, TensorFlow/PyTorch, etc.)
+
+```bash
+├── __pycache__/           # Python bytecode cache (auto-generated, usually ignored)
+├── models/                # Trained CNN model weights
+├── preprocessing/         # Scripts for fingerprint image enhancement
+├── notebooks/             # Colab notebooks for model training and evaluation
+├── app/                   # Flask backend application
+├── static/                # Frontend files: HTML, CSS, JavaScript
+├── requirements.txt       # Python package dependencies
+```
+## Setup & Installation 
 
 PS : I have the models with me and I couldn't push them into GitHub as they're large files with >25 MB.
